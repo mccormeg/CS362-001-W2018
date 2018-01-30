@@ -1,0 +1,5 @@
+#surefire
+#Mon Jan 29 19:26:54 PST 2018
+user.dir=/nfs/stak/users/mccormeg/CS362-001-W2018/projects/mccormeg/assignment-2/Calendar
+localRepository=/nfs/stak/users/mccormeg/.m2/repository
+basedir=/nfs/stak/users/mccormeg/CS362-001-W2018/projects/mccormeg/assignment-2/Calendar
