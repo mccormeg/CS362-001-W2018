@@ -58,7 +58,7 @@ public class ApptRandomTest {
 
 		 
 		 System.out.println("Start testing ApptRandomTest...");
-	/*	 
+		 
 		try{ 
 			for (int iteration = 0; elapsed < TestTimeout; iteration++) {
 				long randomseed =System.currentTimeMillis(); //10
@@ -116,7 +116,7 @@ public class ApptRandomTest {
 		}catch(NullPointerException e){
 			
 		}
-	 */
+	 
 		 System.out.println("Done testing...");
 	 }
 

@@ -59,7 +59,7 @@ public class CalDayRandomTest {
 
 		 
 		 System.out.println("Start testing CalDayRandom...");
-		 /*
+		 
 		try{ 
 			for (int iteration = 0; elapsed < TestTimeout; iteration++) {
 				int thisDay = 15;
@@ -114,7 +114,7 @@ public class CalDayRandomTest {
 		}catch(NullPointerException e){
 			
 		}
-	 */
+	 
 		 System.out.println("Done testing...");
 	 }
 
