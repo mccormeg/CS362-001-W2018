@@ -1,0 +1,8 @@
+The first bug is in Appt.java inside the isValid() method. Inside this 
+version of code is the statement: 
+int NumDaysInMonth= CalendarUtil.NumDaysInMonth(startYear,startMonth%12);
+This causes my test that checks if February 30th is a valid date to fail 
+because of the NumDaysInMonth to work the arguments need to be startYear,
+and startMonth - 1.
+
+The second bug is in TimeTable,java within the GetApptRange() method. Within the for loop the conditional should be i < appts.size() but instead is i < appt.size()-1. This causes the application to miss one of the appts within the linked list which cold cause the program to have false positives.
